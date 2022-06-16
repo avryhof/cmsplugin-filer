@@ -22,7 +22,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
     ],
     install_requires=[
-        "Django >= 1.8",
+        "Django >= 2.2",
         "django-filer >= 1.2.0",
 
         "django-cms >= 3.1",
@@ -30,6 +30,7 @@ setup(
         "easy_thumbnails >= 1.0",
         "django-appconf",
         "djangocms-attributes-field>=0.1.1",
+        "six",
     ],
     include_package_data=True,
     zip_safe=False,

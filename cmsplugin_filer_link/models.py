@@ -9,7 +9,7 @@ from cms.models import CMSPlugin
 from cms.models.fields import PageField
 
 from filer.fields.file import FilerFileField
-from filer.utils.compatibility import python_2_unicode_compatible
+from six import python_2_unicode_compatible
 
 from djangocms_attributes_field.fields import AttributesField
 
@@ -47,6 +47,7 @@ class FilerLinkPlugin(CMSPlugin):
         to=CMSPlugin,
         related_name='%(app_label)s_%(class)s',
         parent_link=True,
+        on_delete=models.CASCADE
     )
 
     def __str__(self):

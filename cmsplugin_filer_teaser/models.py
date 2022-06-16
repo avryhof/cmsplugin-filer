@@ -3,7 +3,7 @@ from django.db import models
 from cms.models import CMSPlugin
 from cms.models.fields import PageField
 from filer.fields.image import FilerImageField
-from filer.utils.compatibility import python_2_unicode_compatible
+from six import python_2_unicode_compatible
 from .conf import settings
 from cmsplugin_filer_utils import FilerPluginManager
 
@@ -46,6 +46,7 @@ class FilerTeaser(CMSPlugin):
         to=CMSPlugin,
         related_name='%(app_label)s_%(class)s',
         parent_link=True,
+        on_delete=models.CASCADE
     )
 
     objects = FilerPluginManager(select_related=('image', 'page_link'))
