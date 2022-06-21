@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 from cmsplugin_filer_file import __version__
 
 setup(
-    name="cmsplugin-filer",
+    name="cmsplugin-filer-resurrected",
     version=__version__,
-    url='http://github.com/divio/cmsplugin-filer',
+    url='http://github.com/avryhof/cmsplugin-filer',
     license='BSD',
     description="django-cms plugins for django-filer",
     long_description=open('README.rst').read(),
@@ -24,7 +24,6 @@ setup(
     install_requires=[
         "Django > 1.11",
         "django-filer >= 1.2.0",
-
         "django-cms >= 3.1",
         "django-sekizai >= 0.4.2",
         "easy_thumbnails >= 1.0",

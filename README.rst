@@ -1,3 +1,14 @@
+**Resurrected**
+
+While this has been deprecated by Divio/Aldryn... I have resurrected it so we
+can upgrade some old applications still using it.
+
+``pip install cmsplugin-filer-resurrected``
+
+The links below are most likely better long-term solutions, and there is also a plugin that converts everything to built-ins.
+
+* deprecate-cmsplugin-filer: https://pypi.org/project/deprecate-cmsplugin-filer/
+
 **Deprecated**
 
 This project is no longer supported.
@@ -11,19 +22,6 @@ Please have a look at the following forks or alternatives:
 * https://github.com/divio/djangocms-file
 * https://github.com/divio/djangocms-link
 * https://github.com/divio/djangocms-video
-
-**Installable Fixes**
-
-I'm keeping this plugin alive for a project my company uses it in.  No new development is happening, but I'm making
-sure it will install and work as is until we can get rid of it.
-
-You can install this code with: ::
-
-    pip install git+https://github.com/avryhof/cmsplugin-filer.git
-
-The links above are most likely better long-term solutions, and there is also a plugin that converts everything to built-ins.
-
-* deprecate-cmsplugin-filer: https://pypi.org/project/deprecate-cmsplugin-filer/
 
 ===============
 cmsplugin-filer
