@@ -1,5 +1,22 @@
 **Resurrected**
 
+.. image:: http://img.shields.io/pypi/v/cmsplugin-filer-resurrected.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/cmsplugin-filer-resurrected/
+    :alt: Latest Version
+
+.. image:: http://img.shields.io/pypi/dm/cmsplugin-filer-resurrected.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/cmsplugin-filer-resurrected/
+    :alt: Downloads
+
+.. image:: http://img.shields.io/pypi/l/cmsplugin-filer-resurrected.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/cmsplugin-filer-resurrected/
+    :alt: License
+
+.. image:: https://img.shields.io/badge/Donate-PayPal-green.svg
+   :target: https://paypal.me/avryhof?country.x=US&locale.x=en_US
+   :alt: Donate
+
+
 While this has been deprecated by Divio/Aldryn... I have resurrected it so we
 can upgrade some old applications still using it.
 
