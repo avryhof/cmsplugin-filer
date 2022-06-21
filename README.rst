@@ -9,6 +9,12 @@ The links below are most likely better long-term solutions, and there is also a 
 
 * deprecate-cmsplugin-filer: https://pypi.org/project/deprecate-cmsplugin-filer/
 
+*Resurrected DjangoCMS Projects*
+
+* https://pypi.org/project/aldryn-bootstrap3-resurrected/
+* https://pypi.org/project/cmsplugin-filer-resurrected/
+* https://pypi.org/project/djangocms-forms-maintained/
+
 **Deprecated**
 
 This project is no longer supported.
